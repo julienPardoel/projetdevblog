@@ -5,6 +5,7 @@ const Contact = () => {
     return (
         <div className="contact">
             <Navigation/>
+            <h1>Contactez-moi</h1>
         </div>
     )
 }
