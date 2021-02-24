@@ -1,6 +1,26 @@
 .blog{
     text-align: center;
     h1{
-        margin-top: 20px
+        margin: 20px 0 20px 0;
+    }
+    article{
+        border: 2px solid black;
+        border-radius: 5px;
+        width:80vw;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 20px;
+        margin-top: 20px;
+        box-shadow: 5px 5px 3px;
+        p{
+            a{
+                color:blue;
+            }
+        }
+    }
+    article:hover{
+        cursor: pointer;
+        background-color: rgb(204, 204, 204);
     }
 }

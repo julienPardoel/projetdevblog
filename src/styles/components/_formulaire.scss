@@ -1,12 +1,31 @@
 .formulaire{
     .post-form{
+        box-shadow: 5px 5px 5px;
+        border: 2px solid black;
         display: flex;
         flex-direction: column;
-        margin: 20px 500px 0 500px;
+        padding: 20px;
+        background-color: rgb(204, 204, 204);
+        border-radius: 5px;
+        margin: 20px 200px 0 200px;
+        input{
+            border-radius: 5px;
+        }
+        textarea{
+            border-radius: 5px;
+        }
+        #post-tags{
+            margin-bottom: 20px;
+        }
         #submit-post{
-            margin-top: 20px;
+            padding: 5px;
+            width: 30%;
+            margin: auto;
+        }
+        #submit-post:hover{
+            cursor: pointer;
+            border: 2px solid black;
+            box-shadow: 1px 1px 5px;
         }
     }
-    
-    
 }

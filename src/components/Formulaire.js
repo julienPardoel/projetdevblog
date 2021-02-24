@@ -1,13 +1,31 @@
-import React, {useState} from 'react'
+import React, { useState, useEffect } from 'react'
+
 
 const Formulaire = () => {
-    const [title, setTitle] = useState('')
-    const [content, setContent] = useState('')
-    const [tags, setTags] = useState([])
-    const [submit, setSubmit] = useState(false)
+    
+    const [title,setTitle] = useState("");
+    const [content,setContent] = useState("");
+    const [tags,setTags] = useState([]);
+    const [submit,setSubmit] = useState(false);
+    const [post,setPost] = useState([]);
+
+
+    useEffect(() => {
+        console.log(post)
+    }, [post])
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        setSubmit(true);
+        setPost({
+            ...{title},
+            ...{content},
+            ...{tags}
+        });
+    }
     return (
         <div className="formulaire">
-            <form className="post-form">
+            <form className="post-form" onSubmit={handleSubmit}>
                 <label htmlFor="post-title">Titre du post :</label>
                 <input type="text" name="post-title" id="post-title" value={title} onChange={(e)=>setTitle(e.target.value)}/>
 
@@ -21,7 +39,7 @@ const Formulaire = () => {
                     setTags(newTags);
                 }}/>
 
-                <input type="submit" id="submit-post" value="créer mon post"/>
+                <input type="submit" id="submit-post" value="Send"/>
             </form>
 
         </div>
