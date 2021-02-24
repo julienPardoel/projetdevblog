@@ -1,13 +1,14 @@
 .articles{
     border: 2px solid black;
     border-radius: 5px;
-    width:80vw;
+    width:70vw;
     display: flex;
     flex-direction: column;
     margin: auto;
     padding: 20px;
     margin-top: 20px;
     box-shadow: 5px 5px 3px;
+    background-color: rgb(204, 204, 204);
     p{
         a{
             color:blue;
@@ -16,5 +17,5 @@
 }
 .articles:hover{
     cursor: pointer;
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(150, 150, 150);
 }

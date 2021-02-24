@@ -1,4 +1,6 @@
 .formulaire{
+    display: flex;
+    justify-content: center;
     .post-form{
         box-shadow: 5px 5px 5px;
         border: 2px solid black;
@@ -7,7 +9,7 @@
         padding: 20px;
         background-color: rgb(204, 204, 204);
         border-radius: 5px;
-        margin: 20px 200px 0 200px;
+        width: 40vw;
         input{
             border-radius: 5px;
         }
@@ -19,13 +21,14 @@
         }
         #submit-post{
             padding: 5px;
-            width: 30%;
+            width: 20%;
             margin: auto;
         }
         #submit-post:hover{
             cursor: pointer;
             border: 2px solid black;
             box-shadow: 1px 1px 5px;
+            background-color: rgb(150, 150, 150);
         }
     }
 }

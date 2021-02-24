@@ -1,6 +1,6 @@
 .navigation{
-    background: linear-gradient(#e66465, #9198e5);
-    height: 50px;
+    background: linear-gradient(#00f7ff, #e97a46);
+    height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -9,7 +9,7 @@
         font-size: 2rem;
     }
     .nav-active{
-        color: aqua
+        color: black;
         
     }
 

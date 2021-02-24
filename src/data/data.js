@@ -2,7 +2,7 @@ export default[
     {
         id: 1,
         title: 'one',
-        article: 'loremfgehehthrtshjrstjtjtjrtr',
+        article: 'loremfgehehthrtshjrstjtjtjrtr fffffffffffffffff ff ssssssssssssssss',
         hashtag: 'prems',
     },
     {

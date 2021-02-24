@@ -9,7 +9,7 @@ const Articles = ({datas}) => {
                             <h2>{title}</h2>
                             <p>{article}</p>
                             <br />
-                            <a>{hashtag}</a>
+                            <a>#{hashtag}</a>
                         </article>
                     </div>
                 )
