@@ -1,0 +1,35 @@
+@media screen and (max-width: 900px) {
+    .formulaire{
+        .post-form{
+            width: 70vw;
+            #submit-post{
+                width: 20vw
+            }
+        }
+    }
+    .navigation{
+        height: 6vh;
+        .desk{
+            visibility: hidden;
+            display: none
+        }
+        .burger{
+            visibility: visible;
+            display: flex;
+            flex-direction: column;
+            margin: 0 0 0 20px;
+            width: 40px;
+            
+            .tranche{
+                width:40px;
+                height:5px;
+                background-color: black;
+                margin-top: 10px;
+            }
+        }
+        .burger:hover{
+            cursor: pointer
+        }
+    }
+    
+}

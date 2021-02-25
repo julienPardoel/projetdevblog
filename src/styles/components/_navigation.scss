@@ -1,16 +1,21 @@
 .navigation{
     background: linear-gradient(#00f7ff, #e97a46);
     height: 10vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    a {
-        color: white;
-        font-size: 2rem;
+    .desk{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 10vh;
+        a {
+            color: white;
+            font-size: 2rem;
+        }
+        .nav-active{
+            color: black;
+        }
     }
-    .nav-active{
-        color: black;
-        
-    }
-
+    .burger{
+    display: none;
+    visibility: hidden;
+}
 };
