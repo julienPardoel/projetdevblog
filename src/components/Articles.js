@@ -1,15 +1,15 @@
-const Articles = ({datas}) => {
+const Articles = ({posts}) => {
     return (
         <>
-            {datas.map((post) => {
-                const { id, title, article, hashtag } = post;
+            {posts.map((post) => {
+                const { id, title, content, tags } = post;
                 return (
                     <div className="articles" key="id">
                         <article>
                             <h2>{title}</h2>
-                            <p>{article}</p>
+                            <p>{content}</p>
                             <br />
-                            <a>#{hashtag}</a>
+                            <a>#{tags}</a>
                         </article>
                     </div>
                 )
