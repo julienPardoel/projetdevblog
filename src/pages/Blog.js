@@ -4,7 +4,7 @@ import Formulaire from '../components/Formulaire';
 import Articles from '../components/Articles';
 
 
-const url = 'http://localhost:3001/api/v1/posts';
+const url = 'http://localhost:5000/api/v1/posts';
 
 const Blog = () => {
 
@@ -25,7 +25,6 @@ const Blog = () => {
     return (
         <div className="blog">
             <Navigation />
-            <h1>Blog</h1>
             <Formulaire />
             <Articles posts={posts} />
         </div>

@@ -1,5 +1,5 @@
 .navigation{
-    background: linear-gradient(#00f7ff, #e97a46);
+    background-color: grey;
     height: 10vh;
     .desk{
         display: flex;
@@ -7,11 +7,12 @@
         align-items: center;
         height: 10vh;
         a {
-            color: white;
+            color: darkturquoise;
             font-size: 2rem;
         }
         .nav-active{
-            color: black;
+            text-shadow: 0px 0px 20px rgb(0, 251, 255);
+            color: rgb(0, 251, 255);
         }
     }
     .burger{
